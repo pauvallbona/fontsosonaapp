@@ -1,0 +1,78 @@
+.remove-btn {
+    margin-right: 0.5rem;
+}
+
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 1000ms ease-in;
+}
+
+* {
+    margin: 0;
+    font-size: 1em;
+    
+    }
+ 
+.trans {
+    border-radius: 30px; 
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#nom{
+    font-size: 1.7em; 
+}
+
+#nom1 {
+    font-size: 1.3em;
+}
+
+
+.recullhist {
+    font-size: 1.3em;
+    width : 58%;
+    padding-left: 10px;
+    margin-bottom:20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.dreta{
+    float: right;
+    width: 40%;
+}
+
+#info {
+    font-size: 1.4em;
+    margin-right:30px;
+    margin-top: 5%;
+    list-style-type: none;
+}
+
+.leaflet-popup-tip {
+    background-color: Transparent
+}
+
+#citació {
+    color: rgb(147, 150, 148);
+    font-style: italic;
+
+    
+}
