@@ -1,6 +1,6 @@
 import React from 'react';
 import AppNavbar from './components/AppNavbar';
-import Map from './components/Map.js';
+import Main from './components/Main';
 import {Provider} from 'react-redux';
 import store from './store';
 
@@ -9,28 +9,17 @@ import './App.css';
 
 class App extends React.Component {
 
-  state = {
-    modal: false,
-    infor: []
-}
-
-seleccionar = () => {
-  
-    console.log ('seleccionat')
-}
   render() {
     return (
      
       <Provider store={store}>
         <div className="App">
           <AppNavbar />
-          <Map/>
+          <Main/>
         </div>
       </Provider>
     );
-  }
-  
- 
+  }   
 }
 
 export default App;

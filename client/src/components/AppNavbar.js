@@ -15,21 +15,18 @@ class AppNavbar extends Component {
     render() {
         return (
         <div>
-            <Navbar color="dark" dark expand="sm" className="mb-5" style={{zIndex:'100'}}>
+            <Navbar color="dark" dark expand="sm" className="mb-5" style={{position: "relative",zIndex:'1'}}>
                 <Container>
                     <NavbarBrand href="/">Fonts d'Osona</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
-                                <NavLink href="/">Buscar</NavLink>
-                            </NavItem>
+                            <NavItem ><NavLink href="#" id="maintoggle">Llista</NavLink></NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>Més </DropdownToggle>
                                 <DropdownMenu right>
-                                     <DropdownItem href="/">Contacte</DropdownItem>
-                                     <DropdownItem href="/">Recursos</DropdownItem>
-                                     <DropdownItem href="https://github.com">Github</DropdownItem>
+                                     <DropdownItem href="https://github.com/pauvallbona/fontsosonaapp">Github</DropdownItem>
+
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                         </Nav>

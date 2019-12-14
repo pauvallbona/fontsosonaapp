@@ -16,6 +16,6 @@ const ItemSchema = new Schema ({
   }],
     aigua: String,
    }] 
-}, { collection: 'fonts' });
+}, { collection: 'fonts2' });
 
 module.exports = Item = mongoose.model('item', ItemSchema);

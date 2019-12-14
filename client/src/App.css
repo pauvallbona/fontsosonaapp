@@ -64,6 +64,7 @@
     margin-right:30px;
     margin-top: 5%;
     list-style-type: none;
+    margin-bottom: 0px;
 }
 
 .leaflet-popup-tip {
@@ -72,7 +73,29 @@
 
 #citació {
     color: rgb(147, 150, 148);
-    font-style: italic;
+    font-style: italic; 
+}
 
-    
+.leaflet-left {
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.list-group-item {
+    background-color: Transparent;
+    border: none;
+    margin-left: 2.5%;
+}
+
+#cgràfic {
+    height: 60%;
+    width: 60%;
+}
+
+#municipi{
+    margin-bottom: 5px;
+}
+
+#coords {
+    margin-bottom: 5px;
 }
